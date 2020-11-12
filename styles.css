@@ -1,0 +1,170 @@
+
+
+.col-3 {
+    /* background-color: black;  */
+    height: calc(100vh - 56px);
+    overflow-y:scroll;
+    position: sticky; top: 56px;
+}
+
+.col-9{
+    height: calc(100vh - 56px);
+}
+
+
+
+/* Carousel-1 */
+
+#p-one{
+    border-radius: 33px;
+    background-color: rgb(245, 245, 245);
+    height: 370px;
+}
+
+
+#demo1{
+    text-align: center;
+}
+#demo2{
+    text-align: center;
+    
+}
+#demo3{
+    text-align: center;
+}
+
+/* buttons */
+.myButton {
+	background-color:#202421;
+	border-radius:18px; 
+    border:1px solid #ededed;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	padding:26px 31px;
+	text-decoration: none;
+	/* text-shadow:0px 1px 0px #d4dbd2; */
+}
+.myButton:hover {
+    background-color:rgba(86, 87, 71, 0.685);
+    text-decoration: none;
+} 
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+
+#container {
+    text-align: center; 
+    padding: 17px;
+
+}
+
+.col-{
+    padding-top: 8px;
+    padding-left: 8px;
+}
+
+.myButton{
+    text-align: center;
+
+    width: 270px;
+    height: 120px;
+}
+
+
+#full{
+    background-color: rgba(209, 201, 205, 0.986);
+    height: 1460px;
+}
+
+/* h3 */
+
+.r1{
+    padding: 20px;
+    padding-left: 105px;
+}
+
+.r2{
+    padding: 30px;
+    padding-left: 110px;
+}
+
+.r3{
+    padding: 30px;
+    padding-left: 109px;
+}
+
+/* Carousel-2 */
+.p-two{
+    border-radius: 33px;
+    background-color: rgb(245, 245, 245);
+    height: 780px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+.sidebar{
+    /* position: fixed; */
+    /* left: 250px; */
+    width: auto;
+    height: auto;
+    background-color: rgb(7, 8, 10);
+    
+    border-radius: 12px;
+}
+
+.sidebar header{
+    font-size: 27px;
+    color:white;
+    text-align: center;
+    line-height: 70px;
+    background-color: #063146;
+    user-select: none;
+    border-radius: 8px;
+}
+
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 79px;
+    font-size: 20px;
+    color: white;
+    padding-left: 30px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(81, 33, 194, 0.1);
+    border-bottom:1px solid black;
+    transition: .4s;
+}
+
+ul li:hover a{
+    padding-left: 50px;
+
+}
+
+.sidebar ul a i{
+    margin-right: 6px;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    text-decoration: none;
+}
